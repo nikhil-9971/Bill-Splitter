@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Connect CSS -->
+    <link rel="stylesheet" href="./app.css" />
+
+    <title>Resturant Bill Spliter App</title>
+  </head>
+  <body>
+    <header>
+      <h1>Resturant Bill Calculator</h1>
+    </header>
+    <main>
+      <!-- Input Section of the Resturant Bill -->
+      <div class="input-screen">
+        <div class="input-screen1">
+          <span>
+            <label for="disehesOntable"
+              >Enter the number of dishes ordered by customers on table</label
+            >
+            <input type="number" id="disehesOntable" />
+          </span>
+          <button type="button" id="dishButton">Create dish</button>
+        </div>
+
+        <!-- ++++++++++++++++++++ -->
+        <div class="input-screen2">
+          <header><h2>Enter different-defferent dishes price</h2></header>
+          <div id="input-2-body">
+            <!-- Adding div label and input tag from JS -->
+          </div>
+          <footer>
+            <button type="button" id="input-2-button">Submit</button>
+          </footer>
+        </div>
+
+        <!-- ++++++++++++++++++++++++ -->
+        <div class="input-screen-3">
+          <span>
+            <label for="persons">Enter total no of people sharing dishes</label>
+            <input type="number" id="persons" />
+          </span>
+          <button type="button" id="person-btn">Calculate Bill</button>
+        </div>
+      </div>
+
+
+
+
+      
+      <!-- Output Section of the Resturant Bill -->
+      <div id="output-screen">
+        <p id="Total-Bill">
+          <!-- Adding total bill from JS -->
+        </p>
+        <p id="Bill-per-person">
+          <!-- Adding bill per person from JS -->
+        </p>
+      </div>
+    </main>
+
+    <!-- Connect java Script  -->
+    <script src="./app.js"></script>
+  </body>
+</html>
